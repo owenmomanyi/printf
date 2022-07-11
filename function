@@ -1,0 +1,11 @@
+_printf( const *s)
+{
+    while *s notEquals NullByte;
+        _putchar(*s);
+        s++;
+} 
+
+main
+{
+    _printf("Let's try to printf a simple sentence.\n")
+} 
